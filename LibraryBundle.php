@@ -10,15 +10,15 @@
  * @author Erwin Eu <eu.erwin@coruja.studio>
  * @developer Erwin Eu<eu.erwin@coruja.studio>
  */
-namespace Prefix\Bundle\LibraryNameBundle;
+namespace Wine\Bundle\LibraryBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
- * Class LibraryNameBundle
+ * Class LibraryBundle
  *
  * @author Erwin Eu <eu.erwin@coruja.studio>
  */
-class LibraryNameBundle extends Bundle
+class LibraryBundle extends Bundle
 {
 }

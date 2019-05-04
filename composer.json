@@ -1,14 +1,14 @@
 {
-    "name": "prefix/library-name-bundle",
+    "name": "wine/library-bundle",
     "type": "library",
-    "description": "Description",
-    "keywords": ["keyword"],
-    "homepage": "homepage",
+    "description": "Symfony Third party Library",
+    "keywords": ["symfony"],
+    "homepage": "http://coruja.studio",
     "license": "MIT",
     "authors": [
         {
-            "name": "Full name",
-            "email": "E-mail"
+            "name": "Erwin Eu",
+            "email": "eu.erwin@coruja.studio"
         }
     ],
     "repositories": [
@@ -19,7 +19,7 @@
     "require-dev": {
     },
     "autoload": {
-        "psr-4": { "Prefix\\Bundle\\LibraryNameBundle\\": "" }
+        "psr-4": { "Wine\\Bundle\\LibraryBundle\\": "" }
     },
     "minimum-stability": "dev",
     "extra": {
