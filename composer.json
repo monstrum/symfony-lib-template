@@ -1,0 +1,30 @@
+{
+    "name": "prefix/library-name-bundle",
+    "type": "library",
+    "description": "Description",
+    "keywords": ["keyword"],
+    "homepage": "homepage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Full name",
+            "email": "E-mail"
+        }
+    ],
+    "repositories": [
+    ],
+    "require": {
+        "php": ">=5.3.9"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": { "Prefix\\Bundle\\LibraryNameBundle\\": "" }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master"
+        }
+    }
+}
